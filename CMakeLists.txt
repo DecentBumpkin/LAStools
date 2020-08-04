@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
 set(CMAKE_SUPPRESS_REGENERATION true)
+set(CMAKE_CXX_STANDARD 11)
 project("LAStools")
 
 if (!MSVC)
